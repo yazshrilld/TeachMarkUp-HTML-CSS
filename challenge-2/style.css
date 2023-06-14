@@ -1,0 +1,9 @@
+li:first-child {
+    font-weight: bold;
+}
+
+a:active {
+    background-color: green;
+    font-style: italic;
+    border-bottom: 2px dashed black;
+}
