@@ -25,11 +25,11 @@ aside p:nth-child(4) {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-a:link {
+a:link, a:visited{
   color: #0c0b0b;
 }
 
-a:hover {
+a:hover, a:active {
   text-decoration: none;
 }
 
