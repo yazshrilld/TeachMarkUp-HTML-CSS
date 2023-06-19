@@ -45,7 +45,7 @@ h5 {
 }
 
 li {
-  list-style: square;
+  list-style:url();
 }
 
 button {
