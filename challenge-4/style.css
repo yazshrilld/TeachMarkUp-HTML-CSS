@@ -12,8 +12,18 @@
   margin: 50px auto;
 }
 
+.header::before {
+  content: "sale";
+  background-color: #fd0e0e;
+  padding: 5px 8px 5px 8px;
+  position: absolute;
+  left: -30px;
+  top: -20px;
+}
+
 .header {
   text-transform: uppercase;
+  position: relative;
   font-family: sans-serif;
   background-color: rgb(23, 231, 231);
   text-align: center;
@@ -55,6 +65,47 @@ a:visited {
 a:hover,
 a:active {
   text-decoration: none;
+}
+
+.number_parent {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.first {
+  background-color: #000;
+}
+
+.second {
+  background-color: #5404f3;
+}
+
+.third {
+  background-color: #f00808;
+}
+
+.fourth {
+  background-color: #f0a608;
+}
+
+.fifth {
+  background-color: #41ef07;
+}
+
+.sixth {
+  background-color: #7c1208;
 }
 
 h5 {
