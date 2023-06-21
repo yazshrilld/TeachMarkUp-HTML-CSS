@@ -12,15 +12,6 @@
   margin: 50px auto;
 }
 
-.header::before {
-  content: "sale";
-  background-color: #fd0e0e;
-  padding: 5px 8px 5px 8px;
-  position: absolute;
-  left: -30px;
-  top: -20px;
-}
-
 .header {
   text-transform: uppercase;
   position: relative;
@@ -28,6 +19,15 @@
   background-color: rgb(23, 231, 231);
   text-align: center;
   padding: 15px;
+}
+
+.header::before {
+  content: "sale";
+  background-color: #fd0e0e;
+  padding: 5px 8px 5px 8px;
+  position: absolute;
+  left: -30px;
+  top: -20px;
 }
 
 .imgs {
