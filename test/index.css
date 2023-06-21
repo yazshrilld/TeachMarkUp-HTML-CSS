@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: green;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: red;
+}
