@@ -265,4 +265,22 @@
   nav p {
     font-size: 18px;
   } */
-  
+
+  .author_img {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.authors {
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}

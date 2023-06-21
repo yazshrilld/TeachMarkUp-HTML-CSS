@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.aside {
+  border: 3px solid black;
+}
+
+.container {
+  width: 825px;
+  margin: 50px auto;
+}
+
+.header {
+  text-transform: uppercase;
+  position: relative;
+  font-family: sans-serif;
+  background-color: rgb(23, 231, 231);
+  text-align: center;
+  padding: 15px;
+}
+
+.header::before {
+  content: "sale";
+  background-color: #fd0e0e;
+  padding: 5px 8px 5px 8px;
+  position: absolute;
+  left: -30px;
+  top: -20px;
+}
+
+.imgs {
+  margin-bottom: 10px;
+  float: left;
+  width: 250px;
+}
+
+.gallery {
+  float: left;
+  width: 250px;
+  margin-top: 40px;
+}
+
+.product_info {
+  float: right;
+  width: 250px;
+  margin-top: 20px;
+}
+
+.price_1 {
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 2px;
+  font-size: 20px;
+  float: left;
+}
+
+.shipping_1 {
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 7px;
+  float: right;
+}
+
+.text {
+  color: #0c0b0b;
+  font-size: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 25px;
+  clear: both;
+
+}
+
+.details {
+  margin-left: 10px;
+  
+}
+
+a:link,
+a:visited {
+  color: #0c0b0b;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.number_parent {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.first {
+  background-color: #000;
+}
+
+.second {
+  background-color: #5404f3;
+}
+
+.third {
+  background-color: #f00808;
+}
+
+.fourth {
+  background-color: #f0a608;
+}
+
+.fifth {
+  background-color: #41ef07;
+}
+
+.sixth {
+  background-color: #7c1208;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.product_details {
+  margin: 20px 0px 10px 10px;
+}
+
+li {
+  list-style: square;
+}
+
+ul {
+  margin: 0px 0px 10px 30px;
+}
+
+button {
+  background-color: #000;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  border-top: 2px solid black;
+  margin-top: -10px;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+  /* border-color: transparent; */
+}
