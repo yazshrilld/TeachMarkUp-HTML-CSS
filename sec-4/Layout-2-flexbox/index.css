@@ -14,10 +14,10 @@
   }
   
   .container {
-    width: 800px;
-    /* margin-left: auto;
-    margin-right: auto; */
-    margin: 0 auto;
+      width: 1200px;
+      /* margin-left: auto;
+      margin-right: auto; */
+      margin: 0 auto;
   }
   
   .main-header {
@@ -197,7 +197,6 @@
     display: block; */
   
     margin-right: 30px;
-    margin-top: 10px;
     display: inline-block;
   }
   
@@ -265,7 +264,7 @@
   nav p {
     font-size: 18px;
   } */
-
+/* FLOATS
   .author_img {
     float: left;
     margin-bottom: 20px;
@@ -284,3 +283,12 @@ h1 {
 nav {
     float: right;
 }
+
+ */
+
+ /* FLEXBOC */
+ .main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
