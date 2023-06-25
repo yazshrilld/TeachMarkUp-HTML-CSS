@@ -1,32 +1,93 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: 1px solid red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 body {
-    /* background-image: linear-gradient( rgb(179, 255, 0) , rgb(204, 204, 212)); */
+  /* background-image: linear-gradient( rgb(179, 255, 0) , rgb(204, 204, 212)); */
+  background: linear-gradient(to right, rgb(237, 235, 231) 30%, rgb(237, 235, 231) 30%, rgb(250, 247, 231) 60%, rgb(250, 247, 231) 60%)
+
 }
 
 .container {
-    width: 1200px;
-    margin: 40px auto;
+  width: 1200px;
+  margin: 0 auto;
+  /* text-align: center; */
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .hero {
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   margin-bottom: 20px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 20px;
 }
 
+.hero_2 {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  background-color: transparent;
+}
 
+.rectangle_img {
+    display: flex;
+    justify-self:center;
+    /* background-color: green; */
+    text-align: center;
+}
 
+.elipse {
+  position: absolute;
+  background-color: transparent;
+  top: 23px;
+  left: 245px;
+  text-align: center;
+}
+
+.below_hero {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* justify-content: space-between; */
+    background-color: hsla(206, 23%, 94%, 0.8);
+    ;
+    margin-top: 20px;
+}
+
+.next_hero {
+    display: flex;
+    gap: 20px;
+    background-color: hsla(206, 23%, 94%, 0.8);
+    ;
+    margin-top: 20px;   
+}
+
+.bhero_1 {
+    /* background-color: green; */
+    width: 50%;
+}
+
+.bhero_2 {
+    display: flex;
+    /* align-items: center; */
+    gap: 15px;
+    justify-content: space-evenly;
+}
+
+.nhero_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    column-gap: 90px;
+}
