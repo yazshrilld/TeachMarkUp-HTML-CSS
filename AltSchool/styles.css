@@ -24,6 +24,48 @@ body {
   margin-bottom: 40px;
 }
 
+.logo_text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* margin: 10px; */
+}
+
+.img_sci_vec {
+    display: flex;
+    gap: 5px;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+.navigation {
+    /* background-color: green; */
+    margin-right: 70px;
+}
+
+.link {
+text-decoration: none;
+display: inline-block;
+margin-left: 40px;
+color: #000;
+}
+
+.link:first-child {
+    color: blue;
+}
+
+.link_ {
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+    /* color: red; */
+    margin-right: 0;
+}
+
+.link_1 {
+    text-align: center;
+}
+
 .hero {
   width: 1200px;
   display: flex;
@@ -83,6 +125,12 @@ body {
     /* align-items: center; */
     gap: 15px;
     justify-content: space-evenly;
+}
+
+.link-2 {
+    padding: 10px;
+    background-color: hsl(216, 100%, 60%, 0.13);
+    border-radius: 50%;
 }
 
 .nhero_2 {
