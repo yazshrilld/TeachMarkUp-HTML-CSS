@@ -68,6 +68,11 @@ img {
   grid-row: 1;
 }
 
+/* SECTION-1 STYLLING */
+.h2--header {
+  opacity: 0.9;
+}
+
 .features-title {
   margin-bottom: 16px;
 }
